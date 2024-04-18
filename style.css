@@ -1,0 +1,57 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    margin: 30px;
+    background-color: rgb(201, 219, 220);
+}
+ol, ul,li {
+    list-style: none;
+}
+button{
+    font-size: 1em;
+    border: 2px firebrick;
+    border-radius: 4px;
+    box-shadow: 2px yellowgreen;
+    color: blueviolet;
+    background-color: beige;
+}
+button:hover{
+    background-color: rgb(190, 68, 239);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(165, 208, 236)
+}
+nav li{
+    display: inline ;
+    margin-inline-end: 8%;
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(33, 8, 92);
+    font-weight: bolder;
+    font: size 15px;
+    text-decoration: none;    
+}
+
+.title__profile{
+    align-items: flex-start;
+    width: 12%;
+    border-color: rgb(197, 8, 244);
+    border-radius: 4em;
+    border-style:dotted;
+}
+
+.title li{
+    display: inline ;
+    margin-inline-end: 5%;
+}
+
+img{
+    width: 10%;
+}
